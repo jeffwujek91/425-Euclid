@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Come Visit Us in Sunny Pensacola - 425 Euclid St</title>
     <style>
-        body { font-family: system-ui, sans-serif; margin: 0; background: #f0f8ff; }
-        .container { max-width: 1000px; margin: auto; background: white; box-shadow: 0 0 20px rgba(0,0,0,0.1); }
-        header { background: linear-gradient(#00aaff, #0077cc); color: white; padding: 60px 20px; text-align: center; }
+        body { font-family: system-ui, sans-serif; margin: 0; background: url('https://source.unsplash.com/random/1920x1080/?pensacola-beach') no-repeat center center fixed; background-size: cover; }
+        .container { max-width: 1000px; margin: auto; background: rgba(255,255,255,0.95); box-shadow: 0 0 20px rgba(0,0,0,0.1); }
+        header { background: rgba(0,122,204,0.9); color: white; padding: 60px 20px; text-align: center; }
         section { padding: 30px 20px; }
         img { max-width: 100%; border-radius: 12px; margin: 10px 0; }
-        .amenities { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; }
         .btn { background: #ff5a5f; color: white; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; }
     </style>
 </head>
@@ -43,7 +42,7 @@
         
         <section>
             <h2>Amenities</h2>
-            <div class="amenities">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px;">
                 <div>King master, queen & twin rooms, pull-out sofa</div>
                 <div>Full kitchen & dining</div>
                 <div>Fenced backyard</div>
@@ -56,10 +55,10 @@
             <p>Beaches ~15 min, Naval Aviation Museum & Blue Angels, downtown fun. We can show you around!</p>
         </section>
         
-        <section style="background:#f8f9fa; text-align:center;">
+        <section style="background:rgba(248,249,250,0.95); text-align:center;">
             <h2>Details & Booking</h2>
-            <p>This house is for friends and family to use. We have a car for you. Come enjoy the beach, museum, and hang with us if you want. The more it gets used, the better!</p>
-            <a href="mailto:your@email.com" class="btn">Inquire for Your Stay</a>
+            <p>This house is for friends and family. We have a car for you. Come enjoy the beach, museum, and hang with us if you want. The more it gets used, the better!</p>
+            <a href="mailto:your@email.com" style="background: #ff5a5f; color: white; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-weight: bold;">Inquire for Your Stay</a>
         </section>
     </div>
 </body>
