@@ -3,50 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sunny Pensacola Family Getaway - 425 Euclid St</title>
+    <title>Pensacola Beach House Getaway - 425 Euclid St</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: linear-gradient(to bottom, #a0d8ff, #f0f8ff); }
-        .container { max-width: 900px; margin: 20px auto; background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
-        header { background: #003087; color: white; padding: 50px 20px; text-align: center; }
-        h1 { margin: 0; font-size: 2.8em; }
-        section { padding: 25px; }
-        img { max-width: 100%; border-radius: 12px; margin: 15px 0; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
-        .highlight { background: #e6f3ff; padding: 20px; border-radius: 10px; }
-        .btn { background: #28a745; color: white; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-size: 1.2em; display: inline-block; margin: 10px; }
+        body { font-family: system-ui, sans-serif; margin: 0; background: #f8f9fa; }
+        .container { max-width: 1000px; margin: auto; background: white; }
+        header { background: linear-gradient(#00bfff, #0077cc); color: white; padding: 60px 20px; text-align: center; }
+        section { padding: 30px 20px; border-bottom: 1px solid #eee; }
+        img { max-width: 100%; border-radius: 12px; }
+        .amenities { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
+        .btn { background: #ff5a5f; color: white; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Welcome to Our Sunny Pensacola Home!</h1>
-            <p>425 Euclid St, Pensacola, FL 32503</p>
+            <h1>Cozy Pensacola Family Home</h1>
+            <p>425 Euclid St · 3 beds · 2 baths · Entire home</p>
+            <a href="#book" class="btn">Inquire for Dates</a>
         </header>
         
         <section>
-            <h2>Ready for Family & Friends</h2>
-            <p class="highlight">Free stays! We're 5 minutes away for dinners, beach days, and hangouts. Bring the crew—the more the merrier.</p>
+            <h2>Photos</h2>
+            <!-- Add your pics here after upload -->
+            <img src="IMG_7941.jpg" alt="Living Room">
+            <img src="IMG_7946.jpg" alt="Kitchen">
+            <!-- more -->
         </section>
         
         <section>
-            <h2>Photos of the House</h2>
-            <!-- Replace these with your actual image links after upload, e.g. <img src="IMG_7941.jpg" alt="Master Bedroom"> -->
-            <img src="https://via.placeholder.com/800x400?text=Master+Bedroom" alt="Master">
-            <img src="https://via.placeholder.com/800x400?text=Kitchen" alt="Kitchen">
-            <!-- Add all your pics here -->
+            <h2>The Space</h2>
+            <p>Fenced yard, fully stocked kitchen, WiFi, beach gear, car seats. Perfect for families. 5 min from us for dinners!</p>
         </section>
         
         <section>
-            <h2>What You'll Love</h2>
-            <ul>
-                <li>3 beds/2 baths + pull-out (sleeps 6-7)</li>
-                <li>Fenced yard, full kitchen, WiFi, beach gear, car seats</li>
-                <li>Beaches 15 min, Downtown 10 min, **Blue Angels** & Naval Aviation Museum nearby</li>
-            </ul>
+            <h2>Amenities</h2>
+            <div class="amenities">
+                <div>✅ King + Queen + Twin beds</div>
+                <div>✅ Pull-out sofa</div>
+                <div>✅ Full kitchen</div>
+                <div>✅ Beach gear</div>
+                <div>✅ WiFi & AC</div>
+                <div>✅ Fenced yard</div>
+            </div>
         </section>
         
-        <section style="text-align:center; padding:40px; background:#f8f9fa;">
-            <a href="mailto:your@email.com" class="btn">Message Us to Stay!</a>
-            <p>Jeff & Joce – Let's plan your visit!</p>
+        <section>
+            <h2>Things to Do Nearby</h2>
+            <p>Beaches 15 min, **Blue Angels** & Naval Aviation Museum (we'll guide you), downtown fun.</p>
+        </section>
+        
+        <section id="book">
+            <h2>Availability</h2>
+            <p>Inquire for dates (link your Google Calendar here later).</p>
+            <a href="mailto:your@email.com" class="btn">Message to Book</a>
         </section>
     </div>
 </body>
